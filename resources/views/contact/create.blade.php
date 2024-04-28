@@ -4,7 +4,7 @@
 
     <div class="card-header">Register form</div>
     <div class="card-body">
-        <form action="{{route('Register) }}" method="post">
+        <form action="{{route('Register') }}" method="post">
 
             {!! csrf_field() !!}
             <h2>Registration Form</h2>
